@@ -2,7 +2,7 @@
   "name": "facedetection",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "App.js",
   "scripts": {
     "start": "node server.js"
   },
