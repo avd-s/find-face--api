@@ -9,10 +9,10 @@ const port = process.env.PORT || 3000;
 
 // The Main End Points
 
-const register = require("./register");
-const signin = require("./signin");
-const profile = require("./profile");
-const image = require("./image");
+const register = require("./endpoints/register");
+const signin = require("./endpoints/signin");
+const profile = require("./endpoints/profile");
+const image = require("./endpoints/image");
 
 // Using Knex to connect to database
 
